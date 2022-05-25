@@ -3,16 +3,7 @@ obd-java-api
 
 OBD-II Java API
 
-## NOTICE
-
-**I am no longer involved in any way with OBD and related activities, so don't expect my feedback on issues, pull-requests and most of all, email.**
-
-I can't even remember when I first picked this project but it was fun as hell in the beginning. Now, years went by and a few contributors jumped in with amazing, smart features and fixes. To those fine people, **Thank you**! This is your _baby_, too.
-
-Now, it's time to say goodbye.
-Pires
-
-[![Build status](https://circleci.com/gh/pires/obd-java-api.svg?style=svg)](https://circleci.com/gh/pires/obd-java-api)
+This fork exists so I can use and extend pires' archived project. The project has been forked more than 250 times, but only the only active fork is a Kotlin re-write that won't work for me.
 
 ## Important resources
 
@@ -39,7 +30,7 @@ mvn clean install
 ### Maven ###
 ```
 <dependency>
-  <groupId>com.github.pires</groupId>
+  <groupId>com.github.mnigbor</groupId>
   <artifactId>obd-java-api</artifactId>
   <version>1.0</version>
 </dependency>
@@ -48,7 +39,7 @@ mvn clean install
 ### Gradle ###
 ```
 dependencies {
-    compile 'com.github.pires:obd-java-api:1.0'
+    compile 'com.github.mnigbor:obd-java-api:1.0'
 }
 ```
 
